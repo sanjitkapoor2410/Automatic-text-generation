@@ -67,3 +67,6 @@ print(f"Data Cleaning:{len(df)} -> {len(clean_text)} tweets")
 print(f"Vocaoblary size:{total_words}")
 print(f"Total sequences{len(X)}")
 print(f"maximum sequence length:{max_sequence_len}")
+
+np.save("X_data.npy",X)
+np.save("y_data.npy",y)
